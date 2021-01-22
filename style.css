@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(fonts/Raleway/static/Raleway-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(fonts/Raleway/static/Raleway-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(fonts/Raleway/static/Raleway-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(fonts/Montserrat/Montserrat-Light.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.logo {
+  font-family: 'Raleway', 'Avenir', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nav {
+  font-family: 'Montserrat', 'Proxima Nova' sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.header-h2 {
+  font-family: 'Raleway', 'Avenir', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.header-h1 {
+  font-family: 'Raleway', 'Avenir', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.header-text {
+  font-family: 'Montserrat', 'Proxima Nova' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.head-btn-pagination {
+  font-family: 'Roboto', 'FF DIN', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.services-mini-head {
+  font-family: 'Raleway', 'Avenir', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.services-mini-text {
+  font-family: 'Montserrat', 'Proxima Nova' sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.realization-item-head {
+  font-family: 'Raleway', 'Avenir', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.realization-item-text {
+  font-family: 'Montserrat', 'Proxima Nova' sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+/*# sourceMappingURL=style.css.map */
