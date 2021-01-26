@@ -155,7 +155,6 @@ body {
         border-radius: 3px;
         text-transform: uppercase;
         transition: ease-out 0.3s;
-        animation: btn-animation 3s infinite;
 
         &:hover {
             background-color: #615346;
@@ -191,7 +190,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    &-link {
+    &-text {
         font-size: 34px;
     }
 }
@@ -224,16 +223,26 @@ body {
 .services {
     display: flex;
     justify-content: space-between;
-    margin-top: 90px;
+    padding: 90px 0;
     align-items: center;
     text-align: center;
     color: #555555;
+    align-items: flex-end;
 
     &-mini {
-        padding: 30px;
+        padding: 10px;
         fill: #555555;
 
-        &:hover {
+        &::after {
+            content: '';
+            border-bottom: 3px solid #F1EEE9;
+            display: block;
+            width: 70px;
+            height: 0;
+            margin: 0 auto;
+
+        }
+        &:hover h2 {
             color: #c7b299;
         }
         &:hover svg {
@@ -241,6 +250,160 @@ body {
         }
         &:hover path {
             fill: #c7b299;
+        }
+        &:hover::after{
+            border-bottom: 3px solid #C7B199;
+        }
+        
+
+        &-head {
+            font-size: 22px;
+        }
+        &-text {
+            font-size: 14px;
+        }
+    }
+    
+}
+
+.realization {
+    margin: 80px 0 -4px;
+    align-items: center;
+    text-align: center;
+
+    &-head {
+        font-size: 30px;
+        color: #555555;
+    }
+    &-text {
+        font-size: 16px;
+        color: #8C8C8C;
+        width: 63%;
+        margin: 20px auto;
+    }
+    &-img {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+.purchase-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.purchase {
+    background: linear-gradient(to right, #211B19, #4E3326);
+    &-content-head {
+        font-size: 28px;
+        color: white;
+        margin: 30px 0 0 6px;
+    }
+    &-content-text {
+        font-size: 18px;
+        color: #615855;
+        margin-top: 6px;
+    }
+    &-btn {
+        width: fit-content;
+        padding: 18px 40px;
+        font-size: 14px;
+        color: white;
+        background-color: #988574;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        text-transform: uppercase;
+        transition: ease-out 0.3s;
+
+        &:hover {
+            background-color: #615346;
+            transform: rotateX(360deg);
+        }
+    }
+}
+
+.project {
+    display: flex;
+    text-align: center;
+    &-desc-head {
+        margin: 60px auto 9px;
+        font-size: 30px;
+        color: #555555;
+    }
+    &-desc-text {
+        margin: 9px auto 27px;
+        width: 63%;
+        font-size: 16px;
+        color: #8C8C8C;
+    }
+    &-btn-select {
+        margin: 5px;
+        padding: 7px 17px;
+        color: #8c8c8c;
+        border: 1px solid #8c8c8c;
+        background: none;
+        border-radius: 3px;
+        font-size: 14px;
+        outline: none;
+        &:hover {
+            background-color: #988574;
+            border: 1px solid #988574;
+            color: white;
+        }
+        &:active {
+            background-color: #998575;
+            border: 1px solid #998575;
+            color: white;
+        }
+    }
+    &-items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    &-item {
+        width: 31%;
+        margin: 69px 10px;
+        &-desc {
+            text-align: left;
+            background-color: #FBFAF8;
+            padding: 26px;
+            margin: -4px 0;
+            &::before {
+                content: '';
+                display: block;
+                height: 0;
+                width: 0;
+                border: 10px solid transparent;
+                border-bottom-color: #FBFAF8;
+                position: relative;
+                bottom: 45px;
+            }
+            &-head {
+                font-size: 20px;
+                color: #C7B299;
+                margin: 0;
+            }
+            &-text {
+                font-size: 14px;
+                color: #D1D1D1;
+            }
+        }
+        &-img {
+            width: 100%;
+        }   
+       
+    
+        &:hover &-desc {
+            background-color: #352F2D;
+        }
+        &:hover &-desc::before {
+            border-bottom-color: #352F2D;
+        }
+        &:hover &-desc-head{
+            color: white;
         }
     }
 }
