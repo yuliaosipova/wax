@@ -45,9 +45,9 @@ body {
 }
 
 .wrap {
-  max-width: 1024x;
+  max-width: 1024px;
   margin: 0 auto;
-  width: 1024x;
+  width: 1024px;
 }
 
 .Montserrat-300 {
@@ -200,7 +200,7 @@ body {
 }
 
 .header-btn:active {
-  decoration: none;
+  text-decoration: none;
 }
 
 .header-btn:hover {
